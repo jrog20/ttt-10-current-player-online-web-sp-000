@@ -6,9 +6,9 @@ def turn_count(board)
     # returns number of turns that have been played
     if player == "X" || player == "O"
       counter += 1
-      return counter
     end  
   end  
+  return counter
 end
 
 # #current_player
